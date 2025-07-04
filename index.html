@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+
+<body>
+   
+    <div class="plate ">
+       
+        <div class="input">
+            <input type="search" name="place" id="input" class="place" placeholder="Place">
+            <button class="button">Get</button>
+        </div>
+          <div class="i logo"></div>
+        <div class="lowerside disabled">
+            <div class="icon"></div>
+            <div class="data">
+                <div class="temp r">22°C</div>
+                <div class="condition r">sunny</div>
+                <div class="location r">mumbai</div>
+                <div class="more1">
+                    <div class="humidity">
+                        <div class="humidimg"></div>
+                        <div class="humdata">
+                            <div class="line1 humidcount">70%</div>
+                            <div class="line2">Humidity</div>
+
+                        </div>
+                    </div>
+                    <div class="windspeed">
+                        <div class="windimg"></div>
+                        <div class="winddata">
+                            <div class="line1 windcount">2km/hr</div>
+                            <div class="line2">windspeed</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="more2">
+                    <select name="show more" id="showmore">
+                        <option value="" selected>Show More</option>
+                   
+  <option value="feelslike_c">Feels Like (°C)</option>
+  <option value="dewpoint_c">Dew Point (°C)</option>
+  <option value="uv">UV Index</option>
+  <option value="vis_km">Visibility (km)</option>
+
+                    </select>
+                </div>
+                <div class="extra disabled"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="bg-colorl-list.js"></script>
+</body>
+
+</html>
