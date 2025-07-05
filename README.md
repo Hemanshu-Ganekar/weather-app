@@ -1,5 +1,5 @@
 # weather-app
-![CHEESE!](index.png)
+![CHEESE!](indexpage.png)
 ![CHEESE!](city1.png)
 ![CHEESE!](city2.png)
 ![CHEESE!](city3.png)
